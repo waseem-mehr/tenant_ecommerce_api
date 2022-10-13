@@ -1,0 +1,14 @@
+python manage.py makemigrations tenant
+python manage.py makemigrations addresses
+python manage.py makemigrations products
+python manage.py makemigrations users
+
+python manage.py create_schemas
+python manage.py createsuperuser
+python manage.py create_tenant
+
+
+
+
+
+
